@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.paytm</groupId>
     <artifactId>hello-piper-eks</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>hello-piper-eks</name>
     <description>Demo project for EKS pipeline Test </description>
     <properties>
