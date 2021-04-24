@@ -45,10 +45,11 @@ ingress:
   annotations: {
     kubernetes.io/ingress.class: "nginx",
     nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/add-base-url : "true"
   }
   hosts:
     - host: lending-api.sandbox.lending.paytm.com
-      paths: [{path: "/api/.*"}]
+      paths: [{path: /data-service}]
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
