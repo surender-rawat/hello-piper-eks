@@ -51,7 +51,7 @@ ingress:
   }
   hosts:
     - host: lending-api.stage.lending.paytm.com
-      paths: [{path: "/data-service"}]
+      paths: [{path: "/data-service/*"}]
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
